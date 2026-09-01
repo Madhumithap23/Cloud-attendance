@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#312E81" />
+  <title>Attendora | Workspace</title>
+  <link rel="icon" href="assets/cloud-attendance-orbit-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="css/style.css?v=5" />
+</head>
+<body>
+  <section id="app-view" class="app-view">
+    <aside class="sidebar" id="sidebar"><div class="sidebar-inner"><div class="brand brand-light"><img src="assets/cloud-attendance-orbit-logo.png" alt="Attendora logo"><div><strong>Attendora</strong><small>SMART ATTENDANCE</small></div></div><span class="side-label">Workspace</span><nav id="sidebar-nav"></nav><div class="profile-card"><div class="avatar">AM<span class="online"></span></div><div><b>Admin Manager</b><small>System Administrator</small></div><button id="logout-btn" title="Sign out">↪</button></div></div></aside>
+    <main class="main-area"><header class="topbar"><button class="icon-btn menu-btn" id="menu-btn">☰</button><div class="top-heading"><span id="top-eyebrow">CLOUD ATTENDANCE</span><b id="top-title">Good morning!</b></div><form class="global-search" id="global-search"><span>⌕</span><input id="search-input" placeholder="Search students, records...  ⌘K"></form><button class="icon-btn notification-btn" id="notification-btn">♧<i></i></button><button class="user-trigger" id="user-trigger"><span class="avatar mini">AM</span><span>⌄</span></button></header><div id="page" class="page"></div></main>
+  </section>
+  <div id="toast-region" class="toast-region"></div><div id="modal-region"></div>
+  <script src="js/script.js"></script>
+  <script src="js/role-features.js?v=4"></script>
+</body>
+</html>

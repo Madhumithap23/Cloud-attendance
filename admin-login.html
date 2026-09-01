@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#312E81" />
+  <title>Attendora | Admin Login</title>
+  <link rel="icon" href="assets/cloud-attendance-orbit-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=5" />
+</head>
+<body class="role-login-page admin-login-page">
+  <main class="role-login-shell">
+    <section class="role-login-art">
+      <a class="brand brand-light" href="index.html"><img src="assets/cloud-attendance-orbit-logo.png" alt="Attendora logo" /><div><strong>Attendora</strong><small>SMART ATTENDANCE</small></div></a>
+      <div class="role-art-copy"><span class="eyebrow">Institution control</span><h1>Keep every attendance decision in view.</h1><p>A focused command center for academic operations, people, reports, and system health.</p><div class="trust-row"><span>◈ Role-based access</span><i></i><span>Cloud synchronized</span></div></div>
+      <img class="role-login-illustration" src="assets/cloud-attendance-analytics-orbit.png" alt="Attendance analytics illustration" />
+    </section>
+    <section class="role-login-panel">
+      <a class="back-link" href="index.html">← All workspaces</a>
+      <div class="brand brand-dark mobile-brand"><img src="assets/cloud-attendance-orbit-logo.png" alt="Attendora logo" /><div><strong>Attendora</strong><small>Admin WORKSPACE</small></div></div>
+      <span class="eyebrow">Admin workspace</span>
+      <h2>Sign in as admin</h2>
+      <p class="intro">Use your admin credentials to continue to the admin workspace.</p>
+      <form class="role-login-form" data-role="Admin">
+        <label>Admin email<input id="account-identifier" name="identifier" type="email" placeholder="admin@cloud.edu" autocomplete="username" required /></label>
+        <label>Password <a href="#" class="forgot-password">Forgot password?</a><span class="password-field"><input id="account-password" name="password" type="password" placeholder="Enter password" autocomplete="current-password" required /><button type="button" class="toggle-password" aria-label="Show password">◉</button></span></label>
+        <label class="check-label"><input type="checkbox" checked />Remember me on this device</label>
+        <p class="form-error" role="alert" aria-live="polite"></p>
+        <button class="primary-btn wide" type="submit">Login to admin workspace</button>
+      </form>
+      <div class="demo-note"><b>Demo access</b><span>admin@cloud.edu · admin123</span></div>
+      <div class="security-note">⌁ Your attendance records are encrypted and securely synchronized in the cloud.</div>
+    </section>
+  </main>
+  <script src="js/auth.js"></script>
+</body>
+</html>

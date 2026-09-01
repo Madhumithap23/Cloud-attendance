@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#312E81" />
+  <title>Attendora | Faculty Login</title>
+  <link rel="icon" href="assets/cloud-attendance-orbit-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=5" />
+</head>
+<body class="role-login-page faculty-login-page">
+  <main class="role-login-shell">
+    <section class="role-login-art">
+      <a class="brand brand-light" href="index.html"><img src="assets/cloud-attendance-orbit-logo.png" alt="Attendora logo" /><div><strong>Attendora</strong><small>SMART ATTENDANCE</small></div></a>
+      <div class="role-art-copy"><span class="eyebrow">Teaching operations</span><h1>Record the class. Support the learner.</h1><p>Move from the classroom to a clean attendance record without administrative noise.</p><div class="trust-row"><span>◈ Role-based access</span><i></i><span>Cloud synchronized</span></div></div>
+      <img class="role-login-illustration" src="assets/cloud-attendance-analytics-orbit.png" alt="Attendance analytics illustration" />
+    </section>
+    <section class="role-login-panel">
+      <a class="back-link" href="index.html">← All workspaces</a>
+      <div class="brand brand-dark mobile-brand"><img src="assets/cloud-attendance-orbit-logo.png" alt="Attendora logo" /><div><strong>Attendora</strong><small>Faculty WORKSPACE</small></div></div>
+      <span class="eyebrow">Faculty workspace</span>
+      <h2>Sign in as faculty</h2>
+      <p class="intro">Use your faculty credentials to continue to the faculty workspace.</p>
+      <form class="role-login-form" data-role="Faculty">
+        <label>Faculty ID or email<input id="account-identifier" name="identifier" type="text" placeholder="FAC-081 or riya.menon@cloud.edu" autocomplete="username" required /></label>
+        <label>Password <a href="#" class="forgot-password">Forgot password?</a><span class="password-field"><input id="account-password" name="password" type="password" placeholder="Enter password" autocomplete="current-password" required /><button type="button" class="toggle-password" aria-label="Show password">◉</button></span></label>
+        <label class="check-label"><input type="checkbox" checked />Remember me on this device</label>
+        <p class="form-error" role="alert" aria-live="polite"></p>
+        <button class="primary-btn wide" type="submit">Login to faculty workspace</button>
+      </form>
+      <div class="demo-note"><b>Demo access</b><span>FAC-081 / riya.menon@cloud.edu · faculty081</span></div>
+      <div class="security-note">⌁ Your attendance records are encrypted and securely synchronized in the cloud.</div>
+    </section>
+  </main>
+  <script src="js/auth.js"></script>
+</body>
+</html>
